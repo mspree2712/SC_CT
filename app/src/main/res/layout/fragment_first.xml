@@ -35,7 +35,7 @@
         android:layout_marginBottom="422dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/name"
+        android:text="Hello World"
         app:layout_constraintBottom_toTopOf="@+id/button_first"
         app:layout_constraintEnd_toEndOf="@+id/imageView"
         app:layout_constraintStart_toStartOf="@+id/imageView"
