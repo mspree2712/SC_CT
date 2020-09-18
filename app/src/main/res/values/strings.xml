@@ -11,4 +11,6 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="hello_world">Hello World</string>
     <string name="name">Name</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="search_title" />
 </resources>
