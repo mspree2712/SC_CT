@@ -14,6 +14,9 @@
         <action
             android:id="@+id/action_FirstFragment_to_SecondFragment"
             app:destination="@id/SecondFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_dashboard1"
+            app:destination="@id/dashboard1" />
     </fragment>
     <fragment
         android:id="@+id/SecondFragment"
@@ -45,4 +48,9 @@
             android:id="@+id/action_Second2Fragment_to_First2Fragment"
             app:destination="@id/First2Fragment" />
     </fragment>
+    <fragment
+        android:id="@+id/dashboard1"
+        android:name="com.example.scct.Dashboard1"
+        android:label="activity_dashboard1"
+        tools:layout="@layout/activity_dashboard1" />
 </navigation>
