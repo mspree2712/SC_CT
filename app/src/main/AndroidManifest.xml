@@ -16,7 +16,7 @@
         android:theme="@style/AppTheme">
         <uses-library
             android:name="com.google.android.wearable"
-            android:required="true" />
+            android:required="false" />
 
         <!--
                Set to true if your app is Standalone, that is, it does not require the handheld
@@ -50,6 +50,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<!--       <provider
+            android:authorities="${applicationId}.here.this.library.provider"
+            android:name="androidx.core.content.FileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:replace="android"></provider>-->
     </application>
 
 </manifest>
